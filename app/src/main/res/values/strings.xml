@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DataBindingExamle</string>
+    <string name="binding_data">Binding Data</string>
+    <string name="event_handling">Event Handling</string>
+</resources>
