@@ -1,4 +1,4 @@
-package com.huangyu.databindingexamle;
+package com.huangyu.databindingexample;
 
 import org.junit.Test;
 

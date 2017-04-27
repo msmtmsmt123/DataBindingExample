@@ -1,4 +1,4 @@
-package com.huangyu.databindingexamle;
+package com.huangyu.databindingexample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

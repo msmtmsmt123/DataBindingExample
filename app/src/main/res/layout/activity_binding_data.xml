@@ -3,7 +3,7 @@
 
     <data>
 
-        <import type="com.huangyu.databindingexamle.bean.User" />
+        <import type="com.huangyu.databindingexample.bean.User" />
 
         <variable
             name="user"
@@ -18,7 +18,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.huangyu.databindingexamle.binding_data.MainActivity">
+        tools:context="com.huangyu.databindingexample.binding_data.MainActivity">
 
         <TextView
             android:layout_width="wrap_content"
