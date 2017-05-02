@@ -2,4 +2,5 @@
     <string name="app_name">DataBindingExample</string>
     <string name="binding_data">Binding Data</string>
     <string name="event_handling">Event Handling</string>
+    <string name="layout_details">Layout details</string>
 </resources>

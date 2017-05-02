@@ -16,6 +16,7 @@
         </activity>
         <activity android:name="com.huangyu.databindingexample.binding_data.BindingDataActivity" />
         <activity android:name="com.huangyu.databindingexample.event_handling.EventHandlingActivity" />
+        <activity android:name="com.huangyu.databindingexample.layout_details.LayoutDetailsActivity" />
     </application>
 
 </manifest>

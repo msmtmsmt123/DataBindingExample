@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.huangyu.databindingexample.binding_data.BindingDataActivity;
 import com.huangyu.databindingexample.databinding.ActivityMainBinding;
 import com.huangyu.databindingexample.event_handling.EventHandlingActivity;
+import com.huangyu.databindingexample.layout_details.LayoutDetailsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
 
         public void eventHandling() {
             toNextActivity(EventHandlingActivity.class);
+        }
+
+        public void layoutDetails() {
+            toNextActivity(LayoutDetailsActivity.class);
         }
     }
 
