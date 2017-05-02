@@ -7,8 +7,6 @@
 
         <import type="android.databinding.tool.util.StringUtils" />
 
-        <import type="android.view.View" />
-
         <variable
             name="user"
             type="User" />
