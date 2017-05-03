@@ -43,6 +43,12 @@
             android:onClick="@{() -> handlers.observable()}"
             android:text="@string/observable" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> handlers.bindingAdapter()}"
+            android:text="@string/binding_adapter" />
+
     </LinearLayout>
 </layout>
 

@@ -4,5 +4,6 @@
     <string name="event_handling">Event Handling</string>
     <string name="layout_details">Layout details</string>
     <string name="observable">Observable</string>
+    <string name="binding_adapter">Binding Adapter</string>
     <string name="change_name">Change Name</string>
 </resources>

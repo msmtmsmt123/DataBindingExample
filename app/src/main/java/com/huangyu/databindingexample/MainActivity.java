@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         public void observable() {toNextActivity(ObservableActivity.class);}
+
+        public void bindingAdapter() {toNextActivity(BindingAdapterActivity.class);}
     }
 
 }
