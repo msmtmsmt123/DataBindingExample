@@ -1,10 +1,9 @@
-package com.huangyu.databindingexample.layout_details;
+package com.huangyu.databindingexample;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.huangyu.databindingexample.R;
 import com.huangyu.databindingexample.bean.User;
 import com.huangyu.databindingexample.databinding.ActivityLayoutDetailsBinding;
 

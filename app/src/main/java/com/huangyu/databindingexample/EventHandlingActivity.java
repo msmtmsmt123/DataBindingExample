@@ -1,4 +1,4 @@
-package com.huangyu.databindingexample.event_handling;
+package com.huangyu.databindingexample;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.huangyu.databindingexample.R;
 import com.huangyu.databindingexample.bean.User;
 import com.huangyu.databindingexample.databinding.ActivityEventHandlingBinding;
 

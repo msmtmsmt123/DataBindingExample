@@ -1,10 +1,9 @@
-package com.huangyu.databindingexample.binding_data;
+package com.huangyu.databindingexample;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.huangyu.databindingexample.R;
 import com.huangyu.databindingexample.bean.User;
 import com.huangyu.databindingexample.databinding.ActivityBindingDataBinding;
 
@@ -17,4 +16,5 @@ public class BindingDataActivity extends AppCompatActivity {
         User user = new User("BindingData", "User");
         binding.setUser(user);
     }
+
 }

@@ -14,9 +14,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.huangyu.databindingexample.binding_data.BindingDataActivity" />
-        <activity android:name="com.huangyu.databindingexample.event_handling.EventHandlingActivity" />
-        <activity android:name="com.huangyu.databindingexample.layout_details.LayoutDetailsActivity" />
+        <activity android:name="com.huangyu.databindingexample.BindingDataActivity" />
+        <activity android:name="com.huangyu.databindingexample.EventHandlingActivity" />
+        <activity android:name="com.huangyu.databindingexample.LayoutDetailsActivity" />
     </application>
 
 </manifest>

@@ -5,7 +5,7 @@
 
         <variable
             name="handlers"
-            type="com.huangyu.databindingexample.event_handling.EventHandlingActivity.Handlers" />
+            type="com.huangyu.databindingexample.EventHandlingActivity.Handlers" />
 
         <variable
             name="user"
