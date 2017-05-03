@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
         public void layoutDetails() {
             toNextActivity(LayoutDetailsActivity.class);
         }
+
+        public void observable() {toNextActivity(ObservableActivity.class);}
     }
 
 }
