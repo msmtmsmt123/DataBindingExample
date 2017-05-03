@@ -30,11 +30,22 @@
             android:layout_height="wrap_content"
             android:text="@{user.firstName}" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.lastName}" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="@{() -> handlers.onClick(user)}"
-            android:text="@string/change_name"/>
+            android:onClick="@{() -> handlers.changeFirstName(user)}"
+            android:text="@string/change_first_name"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> handlers.changeLastName(user)}"
+            android:text="@string/change_last_name"/>
 
     </LinearLayout>
 

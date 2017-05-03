@@ -2,6 +2,7 @@ package com.huangyu.databindingexample.bean;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
+import android.databinding.ObservableField;
 
 import com.huangyu.databindingexample.BR;
 
@@ -12,6 +13,8 @@ import com.huangyu.databindingexample.BR;
 public class ObservableUser extends BaseObservable {
 
     private String firstName;
+
+    public ObservableField<String> lastName = new ObservableField<>();
 
     @Bindable
     public String getFirstName() {

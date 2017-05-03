@@ -5,5 +5,6 @@
     <string name="layout_details">Layout details</string>
     <string name="observable">Observable</string>
     <string name="binding_adapter">Binding Adapter</string>
-    <string name="change_name">Change Name</string>
+    <string name="change_first_name">Change First Name</string>
+    <string name="change_last_name">Change Last Name</string>
 </resources>

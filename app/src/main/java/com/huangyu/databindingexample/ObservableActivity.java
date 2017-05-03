@@ -18,13 +18,17 @@ public class ObservableActivity extends AppCompatActivity {
         ActivityObservableBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_observable);
         ObservableUser user = new ObservableUser();
         user.setFirstName("firstName");
+        user.lastName.set("lastName");
         binding.setUser(user);
         binding.setHandlers(new Handlers());
     }
 
     public class Handlers {
-        public void onClick(ObservableUser user) {
+        public void changeFirstName(ObservableUser user) {
             user.setFirstName("changed");
+        }
+        public void changeLastName(ObservableUser user) {
+            user.lastName.set("changed");
         }
     }
 
